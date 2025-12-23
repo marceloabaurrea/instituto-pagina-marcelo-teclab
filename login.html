@@ -2,36 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Acceso Alumnos</title>
+    <title>Acceso al Campus</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
 <header>
-    <h1>Acceso al Campus</h1>
+    <h1>Acceso al Campus Virtual</h1>
     <nav>
         <a href="index.html">Inicio</a>
         <a href="cursos.html">Cursos</a>
         <a href="contacto.html">Contacto</a>
-        <a href="login.html">Campus</a>
-
     </nav>
 </header>
 
 <section class="login">
     <h2>Ingreso de alumnos</h2>
 
-    <form action="cursos.html">
-        <label>Usuario:</label><br>
+    <!-- CLAVE: action apunta a campus.html -->
+    <form action="campus.html" method="get">
+        <label>Usuario</label><br>
         <input type="text" required><br><br>
 
-        <label>Contraseña:</label><br>
+        <label>Contraseña</label><br>
         <input type="password" required><br><br>
 
         <button type="submit">Ingresar</button>
     </form>
 
-    <p>*Acceso simulado con fines educativos*</p>
+    <p><em>Acceso simulado con fines educativos</em></p>
 </section>
 
 </body>
